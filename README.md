@@ -1,8 +1,8 @@
-\Java Multi-Client Chat Application (Socket Programming)
+Java Multi-Client Chat Application (Socket Programming)
 
 
 
-\Overview:
+Overview:
 
 
 
@@ -16,22 +16,22 @@ A central server accepts multiple client connections and broadcasts messages fro
 
 
 
-\Features:
+Features:
 
 
 
-\1. Multi-client support using multithreading
+1. Multi-client support using multithreading
 
-\2. Real-time message broadcasting
+2. Real-time message broadcasting
 
-\3. Simple console-based interaction
-
-
-\How It Works:
+3. Simple console-based interaction
 
 
+How It Works:
 
-\Server
+
+
+Server
 
 
 
@@ -47,13 +47,13 @@ A central server accepts multiple client connections and broadcasts messages fro
 
 
 
-\Client
+Client
 
 
 
-\Connects to `127.0.0.1:5000`
+Connects to `127.0.0.1:5000`
 
-\Uses two threads:
+Uses two threads:
 
 
 
@@ -61,11 +61,11 @@ A central server accepts multiple client connections and broadcasts messages fro
 
 &#x20; \*ReceiveMsg → Receives messages from server and prints to console
 
-\How to Run
+How to Run
 
 
 
-\1. Compile
+1. Compile
 
 
 
@@ -79,7 +79,7 @@ javac client.java
 
 
 
-\2. Start Server
+2. Start Server
 
 
 
@@ -91,7 +91,7 @@ java server
 
 
 
-\3. Run Client(s)
+3. Run Client(s)
 
 
 
@@ -110,7 +110,7 @@ java client
 
 
 
-\Important Notes
+Important Notes
 
 
 
@@ -149,7 +149,7 @@ java client
 
 
 
-\License
+License
 
 
 

@@ -1,8 +1,8 @@
-\# Java Multi-Client Chat Application (Socket Programming)
+\Java Multi-Client Chat Application (Socket Programming)
 
 
 
-\## Overview
+\Overview:
 
 
 
@@ -12,72 +12,60 @@ A central server accepts multiple client connections and broadcasts messages fro
 
 
 
-\---
-
-
-
-\## Features
-
-
-
-\* Multi-client support using multithreading
-
-\* Real-time message broadcasting
-
-\* Simple console-based interaction
-
-\* No external dependencies (pure Java)
 
 
 
 
-
-
-\## How It Works
-
-
-
-\### Server
+\Features:
 
 
 
-\* Listens on port `5000`
+\1. Multi-client support using multithreading
 
-\* Accepts incoming client connections
+\2. Real-time message broadcasting
 
-\* Spawns a new thread (`clientHandler`) for each client
-
-\* Maintains a shared set of client output streams
-
-\* Broadcasts messages to all connected clients
+\3. Simple console-based interaction
 
 
-
-\### Client
+\How It Works:
 
 
 
-\* Connects to `127.0.0.1:5000`
-
-\* Uses two threads:
+\Server
 
 
 
-&#x20; \* \*\*SendingMsg\*\* → Reads input from user and sends to server
+\*Listens on port `5000`
 
-&#x20; \* \*\*ReceiveMsg\*\* → Receives messages from server and prints to console
+\*Accepts incoming client connections
 
+\*Spawns a new thread (`clientHandler`) for each client
 
+\*Maintains a shared set of client output streams
 
-\---
-
-
-
-\## How to Run
+\*Broadcasts messages to all connected clients
 
 
 
-\### 1. Compile
+\Client
+
+
+
+\Connects to `127.0.0.1:5000`
+
+\Uses two threads:
+
+
+
+&#x20; \*SendingMsg → Reads input from user and sends to server
+
+&#x20; \*ReceiveMsg → Receives messages from server and prints to console
+
+\How to Run
+
+
+
+\1. Compile
 
 
 
@@ -91,7 +79,7 @@ javac client.java
 
 
 
-\### 2. Start Server
+\2. Start Server
 
 
 
@@ -103,7 +91,7 @@ java server
 
 
 
-\### 3. Run Client(s)
+\3. Run Client(s)
 
 
 
@@ -122,7 +110,7 @@ java client
 
 
 
-\## Important Notes
+\Important Notes
 
 
 
@@ -138,7 +126,7 @@ java client
 
 
 
-\## Concepts Used
+\Concepts Used
 
 
 
@@ -161,7 +149,7 @@ java client
 
 
 
-\## License
+\License
 
 
 

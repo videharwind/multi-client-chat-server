@@ -30,31 +30,6 @@ A central server accepts multiple client connections and broadcasts messages fro
 
 
 
-\---
-
-
-
-\## Project Structure
-
-
-
-```
-
-.
-
-├── server.java   # Server-side implementation
-
-├── client.java   # Client-side implementation
-
-├── README.md
-
-└── .gitignore
-
-```
-
-
-
-\---
 
 
 
@@ -144,25 +119,6 @@ java client
 
 
 
-\---
-
-
-
-\## Example Usage
-
-
-
-1\. Start the server
-
-2\. Launch multiple clients
-
-3\. Type a message in any client terminal
-
-4\. Message will be broadcast to all connected clients
-
-
-
-\---
 
 
 
@@ -174,11 +130,11 @@ java client
 
 \* The server runs continuously until manually stopped
 
-\* No authentication or encryption is implemented
 
 
 
-\---
+
+
 
 
 
@@ -196,47 +152,12 @@ java client
 
 
 
-\---
 
 
 
-\## Limitations
 
 
 
-\* No username or identity system
-
-\* No proper disconnection handling
-
-\* Console-based (no GUI)
-
-\* No security (plain text communication)
-
-
-
-\---
-
-
-
-\## Possible Improvements
-
-
-
-\* Add usernames for clients
-
-\* Implement private messaging
-
-\* Add GUI (JavaFX or Swing)
-
-\* Improve connection cleanup
-
-\* Add encryption (SSL/TLS)
-
-\* Maintain chat history
-
-
-
-\---
 
 
 
